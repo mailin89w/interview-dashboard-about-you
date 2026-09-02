@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Interview Dashboards · Daniela Klein</title>
+<link rel="stylesheet" href="assets/dashboard.css">
+<link rel="stylesheet" href="assets/home.css">
+</head>
+<body>
+
+<script src="assets/auth-gate.js"></script>
+
+<div class="topbar">
+  <div class="tb-left">Interview Dashboards</div>
+  <div class="tb-right">
+    <div class="seg" id="themeSeg">
+      <button data-theme-btn="light" class="active">Light</button><button data-theme-btn="dark">Dark</button>
+    </div>
+  </div>
+</div>
+
+<main class="home-main">
+  <div class="intro">
+    <h1>Interviewvorbereitung</h1>
+    <p>Arbeitgeber auswählen, um die vorbereiteten Interview-Dashboards zu den jeweiligen Positionen zu öffnen.</p>
+  </div>
+  <div class="employer-grid" id="employerGrid"></div>
+</main>
+
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <div class="modal-head">
+      <h2 id="modalTitle">Arbeitgeber</h2>
+      <button class="modal-close" id="modalClose">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<script>
+  (function(){
+    if(window.__authGateOk === false){ return; }
+    var currentTheme = 'light';
+    try{
+      var saved = localStorage.getItem('interview_dashboard_theme');
+      if(saved === 'light' || saved === 'dark') currentTheme = saved;
+    }catch(e){}
+
+    function applyTheme(theme){
+      currentTheme = theme;
+      document.documentElement.setAttribute('data-theme', theme);
+      document.querySelectorAll('#themeSeg button').forEach(function(b){
+        b.classList.toggle('active', b.dataset.themeBtn === theme);
+      });
+      try{ localStorage.setItem('interview_dashboard_theme', theme); }catch(e){}
+    }
+    document.querySelectorAll('#themeSeg button').forEach(function(b){
+      b.addEventListener('click', function(){ applyTheme(b.dataset.themeBtn); });
+    });
+    applyTheme(currentTheme);
+  })();
+</script>
+<script src="assets/home.js"></script>
+
+</body>
+</html>

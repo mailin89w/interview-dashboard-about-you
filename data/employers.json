@@ -1,0 +1,15 @@
+{
+  "employers": [
+    {
+      "employer": "ABOUT YOU",
+      "slug": "about-you",
+      "jobs": [
+        {
+          "title": "Senior Technical Business Analyst, Campaign Engine",
+          "date": "2026-08-11",
+          "dashboardPath": "dashboards/about-you/senior-technical-ba/index.html"
+        }
+      ]
+    }
+  ]
+}
