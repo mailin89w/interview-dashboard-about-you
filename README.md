@@ -1,4 +1,4 @@
-# interview-dashboard-about-you
+# interview-dashboards
 
 Private interview-prep dashboards. Start at `index.html` — it lists employers,
 each with the jobs prepared for that company, newest first.
