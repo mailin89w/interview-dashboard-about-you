@@ -10,6 +10,17 @@
           "dashboardPath": "dashboards/about-you/senior-technical-ba/index.html"
         }
       ]
+    },
+    {
+      "employer": "Bureau Veritas",
+      "slug": "bureau-veritas",
+      "jobs": [
+        {
+          "title": "Projektkoordinator Industry",
+          "date": "2026-09-02",
+          "dashboardPath": "dashboards/bureau-veritas/projektkoordinator-industry/index.html"
+        }
+      ]
     }
   ]
 }
