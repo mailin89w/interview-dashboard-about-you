@@ -76,11 +76,11 @@ window.DASHBOARD_DATA = (function(){
      '<div class="mtabpanel active" data-panel="haupt" data-group="pitch">' +
        '<p>Ich komme ursprünglich aus der technischen Umsetzung und habe mehr als zehn Jahre digitale Projekte, Websites, Onlineshops und Relaunches begleitet. Dabei hat sich meine Rolle zunehmend zur Schnittstelle entwickelt: Ich habe Anforderungen mit Kunden und Design geklärt, technische Abhängigkeiten mit Frontend, Backend und externen Partnern abgestimmt, offene Punkte nachgehalten und Qualität bis zur Übergabe begleitet. Meine Stärke liegt darin, viele Informationen so zu ordnen, dass für alle klar ist, was gebraucht wird, wer zuständig ist und was als Nächstes passieren muss.</p>' +
        '<p>Mein Team hat mich einmal als <mark>„Social Glue“</mark> bezeichnet — weil ich früh merke, wenn Informationen fehlen oder Erwartungen auseinanderlaufen, und die richtigen Menschen zur Klärung zusammenbringe. Genau das sehe ich auch im Kern der Position bei Bureau Veritas: Kunden, interne und externe Teams sowie Inspektorinnen und Inspektoren verbinden, vollständige Unterlagen sicherstellen, Fortschritt transparent halten und den Vorgang bis zur Abrechnung zuverlässig begleiten.</p>' +
-       '<p>Die Industry-Domäne und die kaufmännischen Abläufe sind für mich neu. Technische Themen verstehen, strukturiert nachfragen und komplexe Abläufe koordinieren sind dagegen <mark>seit Jahren Teil meiner Arbeit</mark>.</p>' +
+       '<p>Technische Themen verstehen, strukturiert nachfragen und komplexe Abläufe koordinieren sind <mark>seit Jahren Teil meiner Arbeit</mark> — und genau diese Fähigkeiten möchte ich in die Rolle bei Bureau Veritas einbringen.</p>' +
      '</div>' +
      '<div class="mtabpanel" data-panel="kurz" data-group="pitch">' +
        '<p>Ich komme aus der technischen Umsetzung und habe mich über mehr als zehn Jahre immer stärker zur Schnittstelle zwischen Kunden, Fachseite und technischen Teams entwickelt. Ich kläre Informationen, mache Abhängigkeiten sichtbar und halte Zuständigkeiten und nächste Schritte nachvollziehbar.</p>' +
-       '<p>Bei Bureau Veritas möchte ich genau diese Stärke in die <mark>Koordination weltweiter Inspektionen</mark> einbringen. Die branchenspezifischen und kaufmännischen Prozesse lerne ich neu; die zugrunde liegende Schnittstellenarbeit beherrsche ich aus langjähriger Praxis.</p>' +
+       '<p>Bei Bureau Veritas möchte ich genau diese Stärke in die <mark>Koordination weltweiter Inspektionen</mark> einbringen — Informationen klären, Abhängigkeiten sichtbar machen und Zuständigkeiten nachvollziehbar halten.</p>' +
      '</div>' +
      '<p style="font-weight:800;color:var(--ink);margin:16px 0 6px;">Sprechhinweis</p>' +
      '<ul class="tight">' +
@@ -97,11 +97,11 @@ window.DASHBOARD_DATA = (function(){
      '<div class="mtabpanel active" data-panel="haupt" data-group="pitch">' +
        '<p>I originally come from technical delivery and have spent more than ten years on digital projects, websites, online shops, and relaunches. Over time, my role increasingly became an interface one: I clarified requirements with clients and design, aligned technical dependencies with frontend, backend, and external partners, tracked open points, and accompanied quality through to handover. My strength lies in organizing large amounts of information so it\'s clear to everyone what\'s needed, who\'s responsible, and what has to happen next.</p>' +
        '<p>My team once called me <mark>"social glue"</mark> — because I notice early when information is missing or expectations diverge, and I bring the right people together to sort it out. That\'s exactly what I see at the core of this role at Bureau Veritas: connecting clients, internal and external teams, and inspectors, ensuring documentation is complete, keeping progress transparent, and reliably carrying a case through to billing.</p>' +
-       '<p>The Industry domain and the commercial processes are new to me. Understanding technical topics, asking structured questions, and coordinating complex workflows, on the other hand, have been <mark>part of my work for years</mark>.</p>' +
+       '<p>Understanding technical topics, asking structured questions, and coordinating complex workflows have been <mark>part of my work for years</mark> — and that\'s exactly what I want to bring to this role at Bureau Veritas.</p>' +
      '</div>' +
      '<div class="mtabpanel" data-panel="kurz" data-group="pitch">' +
        '<p>I come from technical delivery and, over more than ten years, increasingly became the interface between clients, business stakeholders, and technical teams. I clarify information, surface dependencies, and keep ownership and next steps traceable.</p>' +
-       '<p>At Bureau Veritas, I want to bring exactly that strength to <mark>coordinating inspections worldwide</mark>. I\'m learning the industry-specific and commercial processes from scratch; the underlying interface work I\'ve mastered through years of practice.</p>' +
+       '<p>At Bureau Veritas, I want to bring exactly that strength to <mark>coordinating inspections worldwide</mark> — clarifying information, surfacing dependencies, and keeping ownership traceable.</p>' +
      '</div>' +
      '<p style="font-weight:800;color:var(--ink);margin:16px 0 6px;">Delivery Notes</p>' +
      '<ul class="tight">' +
